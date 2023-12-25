@@ -7,6 +7,7 @@ function foo {
     cd $1
     ls
 }
+alias cd="foo"
 function mcd {
     mkdir -p $1
     cd $1
@@ -15,7 +16,6 @@ function cls {
     clear
     ls
 }
-alias cd="foo"
 alias c="clear"
 alias tree='exa --tree'
 alias b="cd .."
