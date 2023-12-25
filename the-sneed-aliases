@@ -16,6 +16,10 @@ function cls {
     clear
     ls
 }
+function cll {
+    clear
+    ll
+}
 alias c="clear"
 alias tree='exa --tree'
 alias b="cd .."
