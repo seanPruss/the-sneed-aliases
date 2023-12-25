@@ -1,5 +1,5 @@
 # Add flags to existing aliases.
-alias ls="exa -a"
+alias ls="exa -a --icons"
 alias sl="ls"
 alias ll="ls -lh"
 # Define aliases.
