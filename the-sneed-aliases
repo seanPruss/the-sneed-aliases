@@ -1,4 +1,8 @@
 # Add flags to existing aliases.
+alias fucking="sudo"
+alias install="yay -S"
+alias update="yay -Syu"
+alias uninstall="yay -Rns"
 alias ls="exa -a --icons"
 alias sl="ls"
 alias ll="ls -lh"
